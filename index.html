@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li:last-child {
+  border-right: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+        /* Style the element with the id "myHeader" */
+        #myHeader {
+          background-color: lightblue;
+          color: black;
+          padding: 40px;
+          text-align: center;
+        }
+        
+        /* Style all elements with the class name "city" */
+        .city {
+          background-color: tomato;
+          color: white;
+          padding: 10px;
+        } 
+        </style>
+</head>
+<body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v3.2";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+      
+      
+
+</script>
+<div id="menu">
+<ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#photos">My Photos</a></li>
+    <li><a href="#playlist">My Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <li><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+
+</ul>
+</div>
+<br/>
+<br/>
+<section id="about" class="section">
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.</canvas>
+                
+                <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.font = "30px Arial";
+                ctx.fillText("Judy Hopps",10,50);
+                </script>
+   
+
+   <br/>
+   <br/>        
+<audio controls>
+        <source src="Shakira - Try Everything Official Video.mp3" type="audio/ogg">
+      Your browser does not support the audio element.
+      </audio>
+    </section>
+
+<br/>
+
+<br/>
+
+<!-- Multiple similar elements -->
+
+
+
+
+<br/>
+<h1 id="myHeader">Ready to make the world a better place?</h1>
+<p>Hello, Im Officer Judy Hopps the rabbit and im from Zotopia</p>
+<h2 class="city">Home</h2>
+<p>I grew up in rural Bunnyburrow.</p>
+<h2>Im delegated to parking duty by Chief Bogo, who doubts her potential because Im a rabbit.</h2>
+<h2 class="city">Goal</h2>
+<p>To make the world a better place (succeeded)</p>
+<p>To prove her worth on the police force (succeeded)</p>
+       
+
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h3>my photos</h3>
+<img src="Young_Judy_Hopps.jpg" alt="Young_Judy_Hopps" width="300" height="133">
+<br/>
+<img src="Zootopia_Judy's_graduation.jpg" alt="Zootopia_Judy's_graduation" width="300" height="133">
+<br/>
+<img src="Zootopia-17.png" alt="Judy" width="300" height="133">
+<br/>
+<img src="Judy_Hopps_Disney_Infinity_Render_2.png" alt="Judy" width="200" height="200">
+
+
+
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+my playlist
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLeGoGgy9fM8gkybgtggoNz0ca5h5dmYvt" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+<br/>
+
+<p id="demo"></p>
+
+
+<br/>
+<br/>
+
+<section id="like" class="section">
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+give me a like
+<br/>
+<div class="fb-like" data-href="file:///C:/Users/User/Documents/index.html" data-width="100" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+scan my code
+<br/>
+<br/>
+<img src="frame.png" alt="scan me" width="200" height="200">
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
